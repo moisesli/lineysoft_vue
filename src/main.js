@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
+import store from './store'
 import App from './App.vue'
 import router from "./router/index"
-import Axios from 'axios'
 import './index.css'
 import axios from "axios";
 
@@ -24,4 +24,4 @@ axios.defaults.withCredentials = false;
 
 
 // createApp(App).mount('#app')
-createApp(App).use(router).mount('#app')
+createApp(App).use(store).use(router).mount('#app')
