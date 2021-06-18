@@ -14,16 +14,26 @@
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+  <p class="text-2xl">{{ moises }}</p>
 </template>
 
 <script setup>
-import { defineProps, reactive } from 'vue'
+import axios from "axios";
+import { defineProps, reactive,onMounted, ref } from 'vue'
 
 defineProps({
   msg: String
 })
 
+onMounted(() => {
+  axios.get('auth/login.php').then(res => {
+    console.log(res);
+  })
+  console.log('salio mi nombre');
+});
+
 const state = reactive({ count: 0 })
+const moises = ref('moises')
 </script>
 
 <style scoped>
