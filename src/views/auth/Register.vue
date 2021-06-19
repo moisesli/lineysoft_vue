@@ -47,26 +47,54 @@
         <form action="#" class="flex flex-col space-y-5">
 
           <!-- Nombres -->
-          <div class="flex flex-col space-y-1">
-            <label for="text" class="text-sm font-semibold text-gray-500"
-              >Nombres</label
-            >
-            <input
-              type="text"
-              id="nombres"              
-              class="
-                px-4
-                py-2
-                transition
-                duration-300
-                border border-gray-300
-                rounded
-                focus:border-transparent
-                focus:outline-none
-                focus:ring-4 focus:ring-blue-200
-              "
-            />
+          <div class="flex">
+            <div class="w-1/2">
+              <div class="flex flex-col space-y-1">
+                <label for="text" class="text-sm font-semibold text-gray-500"
+                  >Nombres</label
+                >
+                <input
+                  type="text"
+                  id="nombres"              
+                  class="
+                    px-4
+                    py-2
+                    transition
+                    duration-300
+                    border border-gray-300
+                    rounded
+                    focus:border-transparent
+                    focus:outline-none
+                    focus:ring-4 focus:ring-blue-200
+                  "
+                />
+              </div>
+            </div>
+            <div class="w-1/2">
+              <div class="flex flex-col space-y-1">
+                <label for="text" class="text-sm font-semibold text-gray-500"
+                  >Nombres</label
+                >
+                <input
+                  type="text"
+                  id="nombres"              
+                  class="
+                    px-4
+                    py-2
+                    transition
+                    duration-300
+                    border border-gray-300
+                    rounded
+                    focus:border-transparent
+                    focus:outline-none
+                    focus:ring-4 focus:ring-blue-200
+                  "
+                />
+              </div>
+            </div>
           </div>
+          
+          
 
           <!-- Apellidos -->
           <div class="flex flex-col space-y-1">
