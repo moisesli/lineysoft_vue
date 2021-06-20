@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center min-h-screen p-4 bg-gray-100 lg:justify-center">
     <div
-      class="
+        class="
         flex flex-col
         overflow-hidden
         bg-white
@@ -13,7 +13,7 @@
       "
     >
       <div
-        class="
+          class="
           p-4
           py-6
           text-white
@@ -49,62 +49,33 @@
           <!-- Nombres -->
           <div class="flex">
             <div class="w-1/2">
-              <div class="flex flex-col space-y-1">
-                <label for="text" class="text-sm font-semibold text-gray-500"
-                  >Nombres</label
-                >
-                <input
-                  type="text"
-                  id="nombres"              
-                  class="
-                    px-4
-                    py-2
-                    transition
-                    duration-300
-                    border border-gray-300
-                    rounded
-                    focus:border-transparent
-                    focus:outline-none
-                    focus:ring-4 focus:ring-blue-200
-                  "
-                />
+              <div class="flex flex-col">
+                <label for="text" class="text-sm font-semibold text-gray-500">Nombres</label>
+                <div class="">
+                  <input type="text" id="nombres" class="border border-gray-300" />
+                </div>                
               </div>
             </div>
             <div class="w-1/2">
               <div class="flex flex-col space-y-1">
-                <label for="text" class="text-sm font-semibold text-gray-500"
-                  >Nombres</label
-                >
-                <input
-                  type="text"
-                  id="nombres"              
-                  class="
-                    px-4
-                    py-2
-                    transition
-                    duration-300
-                    border border-gray-300
-                    rounded
-                    focus:border-transparent
-                    focus:outline-none
-                    focus:ring-4 focus:ring-blue-200
-                  "
-                />
+                <label for="text" class="text-sm font-semibold text-gray-500">Nombres</label>
+                <div class="flex">
+                  <input type="text" id="nombress" class="border border-gray-300" />  
+                </div>                
               </div>
             </div>
           </div>
-          
-          
+
 
           <!-- Apellidos -->
           <div class="flex flex-col space-y-1">
             <label for="text" class="text-sm font-semibold text-gray-500"
-              >Apellidos</label
+            >Apellidos</label
             >
             <input
-              type="text"
-              id="apellidos"              
-              class="
+                type="text"
+                id="apellidos"
+                class="
                 px-4
                 py-2
                 transition
@@ -121,13 +92,13 @@
           <!-- Correo -->
           <div class="flex flex-col space-y-1">
             <label for="email" class="text-sm font-semibold text-gray-500"
-              >Correo</label
+            >Correo</label
             >
             <input
-              type="email"
-              id="email"
-              autofocus
-              class="
+                type="email"
+                id="email"
+                autofocus
+                class="
                 px-4
                 py-2
                 transition
@@ -145,22 +116,22 @@
           <div class="flex flex-col space-y-1">
             <div class="flex items-center justify-between">
               <label for="password" class="text-sm font-semibold text-gray-500"
-                >Contrasena</label
+              >Contrasena</label
               >
               <a
-                href="#"
-                class="
+                  href="#"
+                  class="
                   text-sm text-blue-600
                   hover:underline
                   focus:text-blue-800
                 "
-                >No Recuerdas?</a
+              >No Recuerdas?</a
               >
             </div>
             <input
-              type="password"
-              id="password"
-              class="
+                type="password"
+                id="password"
+                class="
                 px-4
                 py-2
                 transition
@@ -178,22 +149,22 @@
           <div class="flex flex-col space-y-1">
             <div class="flex items-center justify-between">
               <label for="password" class="text-sm font-semibold text-gray-500"
-                >Contrasena</label
+              >Contrasena</label
               >
               <a
-                href="#"
-                class="
+                  href="#"
+                  class="
                   text-sm text-blue-600
                   hover:underline
                   focus:text-blue-800
                 "
-                >No Recuerdas?</a
+              >No Recuerdas?</a
               >
             </div>
             <input
-              type="password"
-              id="password"
-              class="
+                type="password"
+                id="password"
+                class="
                 px-4
                 py-2
                 transition
@@ -209,9 +180,9 @@
 
           <div class="flex items-center space-x-2">
             <input
-              type="checkbox"
-              id="remember"
-              class="
+                type="checkbox"
+                id="remember"
+                class="
                 w-4
                 h-4
                 transition
@@ -223,13 +194,13 @@
               "
             />
             <label for="remember" class="text-sm font-semibold text-gray-500"
-              >Recordarme</label
+            >Recordarme</label
             >
           </div>
           <div>
             <button
-              type="submit"
-              class="
+                type="submit"
+                class="
                 w-full
                 px-4
                 py-2
