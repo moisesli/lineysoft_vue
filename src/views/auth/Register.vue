@@ -54,15 +54,15 @@
                 <label for="text" class="text-sm font-semibold text-gray-500">Nombres</label>
                 <div class="">
                   <input type="text" id="nombres" class="border border-gray-300" />
-                </div>                
+                </div>
               </div>
             </div>
             <div class="w-1/2">
               <div class="flex flex-col space-y-1">
                 <label for="text" class="text-sm font-semibold text-gray-500">Nombres</label>
                 <div class="flex">
-                  <input type="text" id="nombress" class="border border-gray-300" />  
-                </div>                
+                  <input type="text" id="nombress" class="border border-gray-300" />
+                </div>
               </div>
             </div>
           </div>
