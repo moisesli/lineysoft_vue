@@ -1,5 +1,5 @@
 <template>
-  <div class="flex min-h-screen items-center justify-center bg-gray-100">
+  <div class="flex md:min-h-screen items-center justify-center bg-gray-100">
     <!-- maximo ancho 768 y ancho total con flex-grow -->
     <div
         class="
@@ -34,11 +34,12 @@
               flex-col
               md:flex-row
         ">
-          <div class="flex-grow">
-            <label class="text-sm font-semibold text-gray-500">Nombres</label>
+          <div class="flex-grow md:mr-2">
+            <label class="text-sm font-semibold text-gray-500 pb-1">Nombres</label>
             <input
                 type="text"
                 class="
+                mt-0.5
                 px-4
                 py-2
                 w-full
@@ -52,13 +53,23 @@
               "
             />
           </div>
-          <div class="flex-grow">
+          <div class="flex-grow md:ml-2">
             <label class="text-sm font-semibold text-gray-500">Apellidos</label>
             <input
                 type="text"
-                class="px-4 py-2 w-full transition duration-300 border border-gray-300
-                rounded focus:border-transparent focus:outline-none focus:ring-4
-                focus:ring-blue-200"/>
+                class="
+                  px-4
+                  py-2
+                  w-full
+                  transition
+                  duration-300
+                  border
+                  border-gray-300
+                  rounded
+                  focus:border-transparent
+                  focus:outline-none
+                  focus:ring-4
+                  focus:ring-blue-200"/>
           </div>
         </div>
 
