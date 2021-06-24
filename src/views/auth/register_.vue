@@ -88,11 +88,14 @@
 
         <!-- 3 Password -->
         <div class="flex flex-col md:flex-row mt-3">
-          <div class="flex-grow md:mr-2">
+
+          <div class="flex-grow bg-gray-300 ">
             <label class="text-sm font-semibold text-gray-500">Contrasena</label>
+
           </div>
-          <div class="flex-grow md:ml-2">
-            <label class="">Re Contrasena</label>
+
+          <div class="flex-grow bg-blue-300">
+            <label class="text-sm font-semibold text-gray-500">Contrasena</label>
           </div>
         </div>
 
