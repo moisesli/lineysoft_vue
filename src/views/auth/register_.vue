@@ -28,14 +28,13 @@
             md:flex-row
       ">
 
-        <!-- Nombre y Apellidos -->
+        <!-- 1 Nombre y Apellidos -->
         <div class="
               flex
               flex-col
-              md:flex-row
-        ">
+              md:flex-row">
           <div class="flex-grow md:mr-2">
-            <label class="text-sm font-semibold text-gray-500 pb-1">Nombres</label>
+            <label class="text-sm font-semibold text-gray-500">Nombres</label>
             <input
                 type="text"
                 class="
@@ -58,6 +57,7 @@
             <input
                 type="text"
                 class="
+                  mt-0.5
                   px-4
                   py-2
                   w-full
@@ -72,6 +72,30 @@
                   focus:ring-blue-200"/>
           </div>
         </div>
+
+        <!-- 2 Correo -->
+        <div class="flex flex-grow flex-col mt-3">
+          <label class="text-sm font-semibold text-gray-500">Correo</label>
+          <input type="email" class="
+            mt-0.5 px-4 py-2
+            text-gray-600
+            w-full
+            border border-gray-300
+            rounded
+            focus:border-transparent focus:outline-none focus:ring-4 focus:ring-blue-200" />
+        </div>
+
+
+        <!-- 3 Password -->
+        <div class="flex flex-col md:flex-row mt-3">
+          <div class="flex-grow md:mr-2">
+            <label class="text-sm font-semibold text-gray-500">Contrasena</label>
+          </div>
+          <div class="flex-grow md:ml-2">
+            <label class="">Re Contrasena</label>
+          </div>
+        </div>
+
 
       </div>
 
