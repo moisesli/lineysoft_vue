@@ -13,8 +13,22 @@
         ">
 
       <!-- Lado Izquierdo -->
-      <div class="bg-blue-500 md:w-64 py-6 px-4 text-white md:flex-shrink-0">
-        lefttdsadasd
+      <div class="bg-blue-500 flex md:justify-between flex-col md:w-64 py-6 px-4 text-white md:flex-shrink-0">
+        <div class="my-3 text-4xl font-bold tracking-wider text-center">
+          <a href="#">LINEYSOFT</a>
+        </div>
+        <p class="mt-6 font-normal text-center text-gray-300 md:mt-0">
+          Somos una empresa especializada en facturacion electronica y dar
+          soluciones de software para tu negocio o pequenia empresa.
+        </p>
+        <p class="flex flex-col items-center justify-center mt-10 text-center">
+          <span>Ya tienes una cuenta?</span>
+          <a href="/login" class="underline">Entrar ..!</a>
+        </p>
+        <p class="mt-6 text-sm text-center text-gray-300">
+          Acepto los <a href="#" class="underline">terminos</a> y
+          <a href="#" class="underline">condiciones</a>
+        </p>
       </div>
 
       <!-- Lado derecho con ancho total, previo flex padre -->
