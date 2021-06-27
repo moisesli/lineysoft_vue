@@ -8,4 +8,11 @@ if($method == "OPTIONS") {
     die();
 }
 
-echo 'moises';
+$conn = new PDO('../db/db.db');
+$result = $conn->query("SELECT * FROM users");
+foreach($result as $row)
+{
+    print $row['nombres'] . "\n";
+}
+//print_r($result);
+//echo 'moises';
